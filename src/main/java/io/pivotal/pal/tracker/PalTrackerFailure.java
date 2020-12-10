@@ -11,7 +11,6 @@ import static org.springframework.boot.availability.LivenessState.BROKEN;
 import static org.springframework.boot.availability.LivenessState.CORRECT;
 
 @Component
-@Endpoint(id = "palTrackerFailure")
 public class PalTrackerFailure {
     private final ApplicationEventPublisher eventPublisher;
 
